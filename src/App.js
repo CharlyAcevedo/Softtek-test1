@@ -1,33 +1,12 @@
 import { useEffect, useState } from "react";
+import CharsTable from './components/CharsTable/CharsTable';
+import HeaderSofttek from "./components/header/header";
 import "./styles.css";
-
-const CharsTable = () => {
-  return (
-    <table className="table">
-      <thead>
-        <tr>
-          <th>Character</th>
-          <th>Image</th>
-          <th>Location</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Rick</td>
-          <td>
-            <img src="https://rickandmortyapi.com/api/character/avatar/1.jpeg" />
-          </td>
-          <td>Earth (Replacement Dimension)</td>
-        </tr>
-      </tbody>
-    </table>
-  );
-};
 
 export default function App() {
   return (
     <div className="App">
-      <h1>Hello Softtek</h1>
+      <HeaderSofttek />
       <CharsTable />
     </div>
   );

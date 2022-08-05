@@ -10,4 +10,16 @@ td {
 }
 
 .table {
+  margin: auto;
 }
+
+
+header{
+  position: relative;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  max-width: 50%;
+}
+
