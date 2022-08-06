@@ -64,7 +64,7 @@ export default function PaginationApp({
             <Pagination.Item>{1}</Pagination.Item>
           )}
         <Pagination.Next onClick={() => nextPage()}/>
-        <Pagination.Last />
+        <Pagination.Last onClick={() => pagination(totalPages)}/>
         <Alert className="totalPages py-0" variant={"primary"}>Total Pages {totalPages}</Alert>
       </Pagination>
     </Container>
