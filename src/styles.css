@@ -10,9 +10,31 @@ td {
 }
 
 .table {
+  max-width: 1200px;
   margin: auto;
 }
 
+.pagCont{
+  height: 3.5rem;
+  text-align: center;
+  align-items: center;
+}
+
+.rowPersonal{
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.visible-not{
+  display: none;
+}
+
+.totalPages{
+  top: 3px;
+  left: 10px;
+  white-space: nowrap;  
+}
 
 header{
   position: relative;

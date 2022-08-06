@@ -1,6 +1,7 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import dotenv from 'dotenv';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 dotenv.config();
 

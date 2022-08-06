@@ -26,11 +26,11 @@ const useCharacters = (url, _start = 1, _finish = 20) => {
                 }
                 return newChar
             })
-            setCharacters(dataMaped)
+            setCharacters(prevState => (dataMaped))
         } catch (error) {
-            setError(error.message)
+            setError(prevState => (error.message))
         }
-        setIsLoading(false)
+        setIsLoading(prevState => (false))
     }
 
     useEffect(()=>{
